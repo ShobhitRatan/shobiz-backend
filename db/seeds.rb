@@ -8,7 +8,11 @@
 require 'rest-client'
 require 'json'
 Movie.destroy_all 
+User.destroy_all 
 
+e = User.create(username: "Eric", password: "abc123")
+j = User.create(username: "Jallen", password: "abc123")
+m = User.create(username: "Meghann", password: "abc123")
 api_key = ENV["api_key"]
 def tmdb_api(key, page) 
     base_url="https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key="

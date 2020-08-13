@@ -8,7 +8,7 @@ class MoviesController < ApplicationController
     
     def show 
         default = {} 
-        movie = Movie.uniq.find(params[:id]) 
+        movie = Movie.find(params[:id]) 
         default[:include] = [:title, :language, :overview, :release_date] 
         render json: movie 
     end 
