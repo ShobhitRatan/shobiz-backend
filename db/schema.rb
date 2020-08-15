@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2020_08_13_150631) do
     t.string "language"
     t.string "overview"
     t.string "release_date"
+    t.string "image_1"
+    t.string "image_2"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
