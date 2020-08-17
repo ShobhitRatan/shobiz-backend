@@ -43,3 +43,4 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'rest-client'
 gem 'json'
 gem 'pry' 
+gem 'faker'

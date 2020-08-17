@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :comments
+  resources :reviews
   resources :users
   resources :movies
   get '/users/stay_logged_in', to: 'users#stay_logged_in'
