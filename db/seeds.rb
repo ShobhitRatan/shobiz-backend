@@ -46,11 +46,11 @@ end
     end 
 end 
 
-10000.times do 
+100.times do 
     Review.create({
         movie: Movie.all.sample,
         user: User.all.sample,
-        content: Faker::Hipster.paragraphs(4),
+        content: Faker::Movies::Ghostbusters.quote,
         likes: rand(1..1000)
     })
 end 
