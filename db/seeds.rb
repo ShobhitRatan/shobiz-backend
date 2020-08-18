@@ -30,7 +30,7 @@ def tmdb_api(key, page)
 end 
 
 
-(1..500).each do |i| 
+(1..100).each do |i| 
     # image_domain = "https://image.tmdb.org/t/p/w500"
     tmdb_api(api_key, i.to_s)["results"].each do |movie|
         if movie["poster_path"] && movie["backdrop_path"] 
