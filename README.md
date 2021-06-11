@@ -21,8 +21,7 @@ By <a href="https://github.com/ShobhitRatan">Shobhit Ratan</a> and <a href="http
 </ol>
 <h2>Core Features</h2>
 <ul>
-  <li>A user can register to the website.</li>
-  <li>A user can login to the website.</li>
+  <li>Registration.</li>
   <li>Implemented Authentication using JSON Web Token and Local Storage to encrypt user data.</li>
   <li>Ability to search movies by type and language</li>
   <li>Ability to add / delete reviews</li>
